@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context>
+	<Resource auth="Container"
+		description="BD Election"
+		name="jdbc/election" 
+		type="javax.sql.DataSource"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/election" 
+		username="adm"
+		password="adm"
+	/>
+</Context>

@@ -13,19 +13,18 @@
 	</definition>
 	
 	<definition name="page.welcome" extends="base.definition">
-		<put-attribute name="title" value="Contacts" />
+		<put-attribute name="title" value="Welcome" />
 		<put-attribute name="body" value="/welcome.jsp" />
 	</definition>
 	
-	<definition name="page.list" extends="base.definition">
-		<put-attribute name="title" value="Liste des contacts" />
-		<put-attribute name="body" value="/list-contacts.jsp" />
+		<definition name="page.list" extends="base.definition">
+		<put-attribute name="title" value="Liste des electeurs" />
+		<put-attribute name="body" value="/list-electeurs.jsp" />
 	</definition>	
 	
-	<definition name="page.edit" extends="base.definition">
-		<put-attribute name="title" value="Editions des contacts" />
-		<put-attribute name="body" value="/edit-contact.jsp" />
+		<definition name="page.edit" extends="base.definition">
+		<put-attribute name="title" value="Editions des electeurs" />
+		<put-attribute name="body" value="/edit-electeur.jsp" />
 	</definition>
-	
 	
 </tiles-definitions>

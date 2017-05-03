@@ -25,7 +25,7 @@ public class Election  {
 
 	        Connection con = ds.getConnection();
 	        Statement s = con.createStatement();
-	        ResultSet rs = s.executeQuery("SELECT * FROM produits");
+	        ResultSet rs = s.executeQuery("SELECT * FROM electeurs");
 
 	        while (rs.next()) {
 	          int id =  rs.getInt("id");
